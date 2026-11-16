@@ -1,0 +1,25 @@
+# Build outputs
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.exe
+
+# Debug files
+*.out
+*.gch
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
